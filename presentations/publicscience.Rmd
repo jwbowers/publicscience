@@ -1,0 +1,149 @@
+---
+title: |
+    | The Practice of Social Science in the Government:
+    | Opportunities and Challenges
+    | La Práctica de la Ciencia Social en el Gobierno:
+    | Oportunidades y Desafios
+author: Jake Bowers
+institute: |
+    | University of Illinois, Political Science and Statistics
+    | White House Social and Behavioral Sciences Team
+    | http://jakebowers.org
+date: '`r format(Sys.Date(), "%B %d, %Y")` '
+output:
+  beamer_presentation:
+    keep_tex: yes
+    latex_engine: xelatex
+    slide_level: 2
+    template: sbst.beamer
+    toc: yes
+  ioslides_presentation:
+    css: sbstpresentation.css
+    logo: _template/graphics/SBSTLightBulb.png
+    smaller: yes
+---
+```{r setup, include=FALSE, echo=FALSE, cache=FALSE}
+## the 'toc: yes' line above tricks pandoc into running latex twice so that we can see the nice logos
+
+# Some customization.  You can alter or delete as desired (if you know what you are doing).
+# knitr settings to control how R chunks work.
+
+require(knitr)
+opts_chunk$set(
+  size = "scriptsize",    # slightly smaller font for code
+  echo = TRUE,
+  results = 'markup',
+  strip.white = TRUE,
+  cache = FALSE,
+  highlight = TRUE,
+  width.cutoff = 60,
+  out.width = '.9\\textwidth',
+  message = FALSE,
+  comment = NA,
+  tidy = TRUE,     # display code as typed
+  tidy.opts = list(blank = FALSE, width.cutoff = 60))
+```
+
+# Why are we here?
+
+## OES Vision and Mission
+
+### OES Vision
+We believe government works best when it's built for people.
+
+### OES Mission
+The Office of Evaluation Sciences:
+
+\begin{itemize}
+\item Brings diverse scientific expertise to Federal agencies
+ \item Applies insights about human behavior to improve Government’s interactions with people
+ \item Tests and learns what works using rigorous methods
+ \end{itemize}
+
+
+## Scientific Integrity and Government for Humans
+
+Our vision of a human centered government means that we serve and empower the public and our agency partners.
+
+\bigskip
+
+We serve and empower the public and agency partners by doing and teaching excellent and high integrity science (empirical/experimental/observational science, humility in the face of uncertainty, impersonal techniques for learning from observation, etc\ldots).
+
+
+# Plan, Execute, and Communicate Good Science
+
+## How to do excellent science?
+
+### Challenge
+"Excellent science" changes over time, place, and discipline.
+
+### Approaches
+
+(* means we are already doing something like this)
+
+\begin{itemize}
+\item Publicize all results --- confirming, null* or counter to our or any agencies policy priors.
+\item Publish in Peer Reviewed Places. *
+\item Register all designs that we run to avoid the file drawer problem. *
+\item Pre-analysis plans to avoid concerns about fishing and p-hacking. *
+\item Re-analysis (from scratch) of results. *
+\item Reproducible code to enable public scrutiny and learning (by others, by us) *
+\item Follow (and improve) the Standard Operating Procedure (SOP) *
+\end{itemize}
+
+\medskip
+\pause
+
+**We are already pursuing more excellent scientific practices than most social and behavioral scientists.**
+
+# Pursue a Government built for Humans
+
+## Tactics for creating a human centered government
+
+
+ 1. Apply the insights and tools of behavioral and social science following
+    excellent scientific principles.
+
+ 2. Choose projects which have direct payoff with respect to the health and
+    benefits of individual members of the public.
+
+ 3. Enhance the reputation of the team: (We should keep hearing people say,
+    "Oh, the SBST! I love y'all!" or "I've hear such great things about your
+    team!")
+
+
+## The Threat of Political Capture (Real or Imagined)
+
+**Imagined Capture** deprives us of invitations to collaborate with the right kinds of people in the agencies and academia.
+
+\medskip
+
+**Real Capture** deprives us of invitations to collaborate with the right kinds of people in the agencies and academia **and** deprives us of the ability to learn and teach about what works and what doesn't.
+
+## A new tactic: Openness.
+
+If we show X works in the federal government, we may see X implemented in Urbana, Illinois. (so we **serve the public twice** for one study if the public can know about the study and can implement and analyze the study.)
+
+\medskip
+
+Rather than make extra teaching and outreach materials, we can work in
+public as much as possible (following 18F which also cares about a human centered
+government)^[https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and 
+    <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
+
+
+\medskip
+
+If we model openness, then we have the opportunity to learn from the new groups
+and from people not directly involved in our team or the broader
+multidisciplinary effort. For example, people around the world fix bugs in 18F's code for
+free when they copy the code for their own use.
+
+\medskip
+
+Openness also counteracts the threat of political capture.
+
+
+
+
+

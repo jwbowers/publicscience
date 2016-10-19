@@ -1,0 +1,232 @@
+---
+title: "Let's Talk About How To Ease Re-Analysis"
+author: "Jake Bowers"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  beamer_presentation:
+    keep_tex: yes
+    latex_engine: xelatex
+    slide_level: 2
+    template: sbst.beamer
+    toc: yes
+  ioslides_presentation:
+    css: sbstpresentation.css
+    logo: ../graphics/SBSTLightBulb.png
+    smaller: yes
+---
+```{r setup, include=FALSE, echo=FALSE, cache=FALSE}
+## the 'toc: yes' line above tricks pandoc into running latex twice so that we can see the nice logos
+
+# Some customization.  You can alter or delete as desired (if you know what you are doing).
+# knitr settings to control how R chunks work.
+
+require(knitr)
+opts_chunk$set(
+  size = "scriptsize",    # slightly smaller font for code
+  echo = TRUE,
+  results = 'markup',
+  strip.white = TRUE,
+  cache = FALSE,
+  highlight = TRUE,
+  width.cutoff = 60,
+  out.width = '.9\\textwidth',
+  message = FALSE,
+  comment = NA,
+  tidy = TRUE,     # display code as typed
+  tidy.opts = list(blank = FALSE, width.cutoff = 60))
+```
+
+# Overview: The Code Problem
+
+## The Code Problem
+
+Data analysis is computer programming.
+
+\medskip
+
+Computer programs have bugs.
+
+\medskip
+
+How can anyone do high stakes data analysis?  
+
+\smallskip
+
+(Ideas for how to do this on the next slide.)
+
+
+## General Strategies to Enhance Confidence and Reduce Bugs
+<!-- HTML presentations use a different color choice method  for example <span style="color:orange">Work together</span> --->
+
+
+1) \textcolor{orange}{Work together:} 
+	- If you and your colleagues are going to have to use each others' code, you may start writing code as if others were going to read it.
+	- A second pair of eyes spots errors.
+
+2) \textcolor{orange}{Test assumptions:} Can we get the program to fail when it does something wrong?
+
+3) \textcolor{orange}{Track dependencies:} What file depends on what other file? Can we go from raw data to results in one command? Where did this figure come from?
+	- Share files instead of copying files.
+	- Think in Batch mode (even if you develop in interactive mode)
+	- Plan for use of code on a fresh computer/empty directory.
+  
+4) Other ideas for after the presentation? 
+
+# Track dependencies: Know how outputs relate to inputs
+
+## Data Sharing Idea 1: Google Sheets
+
+```{r googlesheets1, size="tiny", tidy=TRUE}
+## The first time this is run in a while, you'll need to run each line by hand. Thereafter, batch mode will be fine
+library(googlesheets)
+fakedatGS <- gs_title("experimentDat.csv") ## get info about the data
+fakedat <- as.data.frame(gs_read_csv(fakedatGS,as.is=TRUE),stringsAsFactors=FALSE)
+str(fakedat)
+```
+
+```{r genexample, echo=FALSE,results='hide'}
+fakedat$y0 <- rnorm(nrow(fakedat))+5 ## no negative numbers
+fakedat$y1 <- fakedat$y0+5
+fakedat$Y <- with(fakedat, Z * y1 + (1-Z) * y0)
+```
+
+## Data Sharing Idea 2: Data Online
+
+Other data can be read directly from a website:
+```{r}
+usaCountiesPopCentroids<-read.csv(url("http://www2.census.gov/geo/docs/reference/cenpop2010/county/CenPop2010_Mean_CO.txt"),as.is=TRUE)
+head(usaCountiesPopCentroids)
+```
+
+## Other Data Sharing Ideas
+
+Small Text Files (.txt,.csv) can live on Github (currently this is all public)
+
+\medskip
+
+Eventually we will have some shared data space on an Amazon EC2 instance.
+
+## Think in Batch Mode
+
+\textcolor{orange}{Ideal:} Go from raw data to numbers, tables, figures in one command starting from a clean slate.
+
+For example, at the command line `R --vanilla --file=masterfile.R` does the whole analysis.
+
+```{r masterfileexample, eval=FALSE, size="tiny"}
+## Master file for Project X
+
+source("data/datacleanup.R") ## produces wrkdat.rda
+rm(list=ls()) ## delete everything
+source("data/randcheck.R") ## uses wrkdat.rda and produces randok.rda
+rm(list=ls())
+source("data/analysis.R") ## does the analysis
+rm(list=ls())
+source("data/figure1.R") ## makes figures/fig1.pdf
+rm(list=ls())
+source("data/table1.R") ## makes figures/table1.pdf
+```
+
+
+## Another Example: Literate Programming via Rmarkdown
+
+This presentation is an example of a one-file approach where the figures and tables and numbers (like the size of the dataset `r nrow(fakedat)`) are generated on the fly so that we know that the figures and tables and numbers were created within the file.
+
+
+```{r map, echo=FALSE, fig.show='asis',fig.keep='high', fig.cap="Dark counties assigned to some treatment. Light counties assigned to no treatment",out.width=".7\\textwidth"}
+par(oma=rep(0,4))
+library(maps)
+data(countyMapEnv)
+data(usaMapEnv)
+data(county.fips)
+data("state.fips")
+map('state',regions=state.fips$polyname[state.fips$abb %in% fakedat$state],exact=FALSE,mar=c(1,1,1,1))
+map("county",regions=county.fips$polyname[county.fips$fips %in% as.numeric(fakedat$county)],add=TRUE)
+map("county",regions=county.fips$polyname[county.fips$fips %in% as.numeric(fakedat$county)[fakedat$Z==1]],col="gray",fill=TRUE,add=TRUE)
+```
+
+## Another example of literate programming
+
+```{r xtab, results='asis'}
+library(xtable)
+resmat<-sapply(fakedat[,c("n","Z","Y")],function(x){ c(mean=mean(x),sd=sd(x))})
+tab1<-xtable(resmat,caption = paste("Descriptives. Total N=",nrow(fakedat),".",sep=""))
+print(tab1,comment=FALSE)
+```
+
+
+
+## For more complex projects: Makefiles
+
+Here is a little Makefile for Project X. I would type `make memo.pdf` to run it all (or the pieces that haven't been done yet).
+
+```
+memo.pdf: figures/figure1.pdf reports/memo.Rmd
+	Rscript -e 'library(rmarkdown); render('memo.Rmd')'
+	
+data/wrkdat.rda: data/datacleanup.R
+	R --vanilla --file=data/datacleanup.R
+
+figures/figure1.pdf: data/wrkdat.rda figures/figure1.R
+	R --vanilla --file=figures/figure1.R
+```
+
+# Work Together: How to be nice to your future self and future friends with code?
+
+## Interventions, Blocks, Outcomes!
+
+Experiments are defined by \textcolor{orange}{treatment assignments}, fixed/pre-treatment \textcolor{orange}{design features} (like blocks/strata), and \textcolor{orange}{outcomes}.^[And we assume that, within block, the probability of treatment assignment is constant for each unit.]
+
+\medskip
+
+**Ideal:** Provide raw data+code and/or a rectangular dataset with those features as input to results production. For example:
+
+```{r, echo=FALSE,results="asis"}
+mat<-fakedat[c(2:3,9:12),-c(7,8)]
+print(xtable(mat,
+			 caption="Example of working data. Treatment ($Z=1$) assigned within pairs of counties (pair) within state. Outcome is Y."),comment=FALSE,include.rownames=FALSE)
+```
+
+## Sharing Code
+
+Sharing code is better than copying code. 
+
+\medskip
+
+We already share docs with Google Drive. Github is better for code. We can talk more about Github later.
+
+\medskip
+
+\textcolor{orange}{Challenges of code sharing:}  Avoiding clobbering. Avoiding clutter. Fixing mistakes. Versioning (branching, forking).
+
+
+
+# Unit Testing: Writing code is writing tests
+
+## Create productive errors
+
+For example, here I randomly assign treatment within pair of counties. If the code worked (and the preceding code setting up the counties and pairs worked), I should have exactly one treated per pair.
+
+```{r exampletest, eval=FALSE, size='tiny'}
+set.seed(20150101) ## to enable reproducible randomization
+fakedat$Z<-unsplit(lapply(split(fakedat$county,fakedat$pair),
+						  function(x){ sample(c(0,1)) 
+						  	}),fakedat$pair)
+head(fakedat) ## look at data
+
+stopifnot(all(tapply(fakedat$Z,fakedat$pair,sum)==1)) ## exactly 1 treated county per pair
+```
+
+## Another example:
+
+A quote from the Microloans 2.0 file
+
+> Anchorage is still duplicated, so I removed it by hand. Eventually the input > file should only have one row per county.
+
+```{r eval=FALSE, size="tiny"}
+countyCounts<-countyCounts[!(countyCounts$n==4 & countyCounts$combifips=="02020"),]
+stopifnot(all(table(countyCounts$combifips)==1))
+```
+
+# Conversation
+
+
