@@ -44,15 +44,44 @@ opts_chunk$set(
   tidy.opts = list(blank = FALSE, width.cutoff = 60))
 ```
 
-# Why are we here?
+# A movement to use the insights and methods of the social and behavioral sciences to improve public policy.
 
-## OES Vision and Mission
+## Behavioral Insights Teams
+\centering\includegraphics[width=.8\textwidth]{biteam.png}
 
-### OES Vision
+
+## Behavioral Insights Teams
+\centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
+
+## Behavioral Insights Teams
+\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
+
+$+$ Netherlands, Qatar, Denmark, Argentina \ldots Washington DC, Manchester, Sydney, New South Wales, Essex \ldots
+
+
+# Last Year in Washington, DC
+
+## The White House Social and Behavioral Sciences Team
+
+\centering
+\includegraphics[width=.8\textwidth]{TeamSept2016.jpg}
+
+\note{ 
+
+}
+
+## The White House Social and Behavioral Sciences Team
+\centering
+\includegraphics[width=.9\textwidth]{sbstwebclip.png}
+
+
+## SBST Vision and Mission
+
+### SBST Vision
 We believe government works best when it's built for people.
 
-### OES Mission
-The Office of Evaluation Sciences:
+### SBST Mission
+The Social and Behavioral Sciences Team:
 
 \begin{itemize}
 \item Brings diverse scientific expertise to Federal agencies

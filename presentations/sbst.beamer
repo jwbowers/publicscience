@@ -227,6 +227,28 @@ $endif$
 $if(title)$
 \begin{frame}[plain,label=intro,noframenumbering]
 \titlepage
+\note{
+Estimadas y estimados, gracias por invitarme a dar la charla de clausura de
+este congreso. Soy Jake Bowers y trabajo en la facultad de ciencia politica
+con afilicion en la facultad de estadistica en la Universidad de Illinois.
+Tambien sigo desenvolviendo un papel como Fellow con el White House Social and
+Behavioral Sciences team.
+
+Como mi trabajo de hoy es estimular conversaciones a
+final del Congreso, les voy a contar un poco de mi experiencia con el
+proposito de surgir algunos preguntas que nos esta enfrentando en las ciencias
+de comportamiento y sociales en cuanto hay mas y mas demanda para la
+perspicasias y conocimientos y herramientas de nosotros en gobiernos. Asi que
+he venido para advertir que existe un movimiento para conectar a nosotros aqui
+con actores en el gobierno en manera nueva y para dejar preguntas en como
+podemos servir el publico y las disciplinas mejor.
+
+Empiezo en castellano para sepan que pueden hacer preguntas y podemos
+conversar en castellano ademas que en ingles. Probablemente voy a empezar de
+hablar en Ingles de vez en cuando mas que nada para que lo que dice sea mas
+claro.
+
+}
 \end{frame}
 $endif$
 
