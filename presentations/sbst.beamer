@@ -36,6 +36,9 @@
 \usepackage{beamerouterthemeprogressbar}
 \progressbaroptions{titlepage=normal,headline=normal,frametitle=normal}
 
+%https://stackoverflow.com/questions/15142134/slides-with-columns-in-pandoc
+\newcommand{\columnsbegin}{\begin{columns}}
+\newcommand{\columnsend}{\end{columns}}
 
 % Define SBST Colors
 %% Dark Yellow: 102, 83, 30

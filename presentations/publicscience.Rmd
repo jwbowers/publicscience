@@ -44,36 +44,40 @@ opts_chunk$set(
   tidy.opts = list(blank = FALSE, width.cutoff = 60))
 ```
 
-# A movement to use the insights and methods of the social and behavioral sciences to improve public policy.
-
-## Behavioral Insights Teams
-\centering\includegraphics[width=.8\textwidth]{biteam.png}
+# What I did last year (and am continuing to do now): The White House Social and Behavioral Science Team
 
 
-## Behavioral Insights Teams
-\centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
-
-## Behavioral Insights Teams
-\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
-
-$+$ Netherlands, Qatar, Denmark, Argentina \ldots Washington DC, Manchester, Sydney, New South Wales, Essex \ldots
-
-
-# Last Year in Washington, DC
-
-## The White House Social and Behavioral Sciences Team
-
-\centering
-\includegraphics[width=.8\textwidth]{TeamSept2016.jpg}
-
-\note{ 
-
-}
-
-## The White House Social and Behavioral Sciences Team
+## What I did last year
+The White House Social and Behavioral Sciences Team
 \centering
 \includegraphics[width=.9\textwidth]{sbstwebclip.png}
 
+<http://sbst.gov>
+
+\note{ El año pasado participe en un equipo de social and behavioral scientists
+dedicados a utilizar lo que saben del consenso de conocimiento en psicologia,
+economia, y el resto de los disciplinas academicas que estan enfocados en
+intender el comportamiento del ser humano, en servicio publico --- para mejorar
+las politicas publicas del gobierno y mejorar la relacion entre el publico y el
+gobierno. }
+
+
+## What I did last year
+The White House Social and Behavioral Sciences Team
+\centering
+\includegraphics[width=.95\textwidth]{TeamSept2016.png}
+
+\note{ Aqui pueden ver que a mi me contrataban por ser alto.}
+
+
+## Formal Foundation: Executive Order 13707
+
+\centering
+\includegraphics[width=.95\textwidth]{ExecutiveOrder.png}
+
+\note{ El equipo fue fundado formalmente por un order del Presidente Barak
+Obama en Septiembre 15, 2015. Y ya hemos producido mas o menos 30 policy
+interventions con prueba con experimento aleatorio del campo.}
 
 ## SBST Vision and Mission
 
@@ -88,6 +92,92 @@ The Social and Behavioral Sciences Team:
  \item Applies insights about human behavior to improve Government’s interactions with people
  \item Tests and learns what works using rigorous methods
  \end{itemize}
+
+\note{ Quiero notar que somos parte de un movimiento en el mundo entero que esta empujando al estado a ser mas y mas en servicio del pueblo, de la persona. Comento dos ejemplos: (1) si queremos ayudar a gente que quieren ahorrar para la jubilacion, tenemos que ser consciente de que el ser human descuenta el futuro (a veces, mucho), asi que }
+
+## Behavioral Insights Movement
+
+Behavioral Insights teams are groups of policy advisors who translate (and extend) knowledge from academic disciplinary consensus into public policy.
+
+## Behavioral Insights Movement
+
+\centering\includegraphics[width=.8\textwidth]{biteam.png}
+
+\note{ I also want to highlight the fact that this is a movement: there are teams being
+established around the world, at diverse levels of government, all the time.
+The general idea behind this movement is two fold: (1) the move to make
+governments human-centered, to make public policy that does not assume rational
+actors all the time and (2) the growth and maturing of policy relevant theories
+and findings from academia, typified by the work of Kahnemann and Tverky in
+psychology, but including work in economics and other disciplines.
+
+}
+
+## Behavioral Insights Movement
+\centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
+
+## Behavioral Insights Movement
+\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
+
+$+$ Netherlands, Qatar, Denmark, Argentina \ldots Washington DC, Manchester, Sydney, New South Wales, Essex \ldots
+
+# Examples of our Work
+
+##  A Positive Effect of Cognitive Availability
+
+\columnsbegin
+\column{.6\textwidth}
+Roughly 20--30 percent of college-accepted high school graduates
+in urban districts fail to matriculate in college in the fall, because they do
+not complete required pre-matriculation tasks such as  filling out
+course-enrollment forms, taking placement tests, or completing the FAFSA
+form.
+
+\medskip
+
+Sending low-income, college-accepted high school graduates personalized text
+message reminders to complete required pre-matricula on tasks led 8.6 percent
+more students to successfully enroll in college.
+\column{.4\textwidth}
+
+\centering\includegraphics[width=.4\textwidth]{SummerMelt.pdf}
+\columnsend
+
+## A Null Effect of Social Norms
+\centering\includegraphics[width=.8\textwidth]{healthAffairs1.png}
+
+## Other Projects
+
+Some other projects, including some in progress:
+
+ - Only 44% of military enrolled in retirement savings. In pilot projects
+   involving active choice saw increase by 8%.
+
+ - Increased applications for and take-up of microloans for farmers via
+   redesigned communication.
+
+ - Helping people communicate with loan counselors to avoid defaults on student
+   loans by providing a committment device (pre-scheduled call times).
+
+ - Changing materials and training associated with unemployment benefits (state
+   of Oregon).
+
+ Also some projects not involving testing: on <http://vote.gov>, on
+ the handbook for water safety for the EPA in Flint, on the Bureau of Prison's
+ Re-Entry Handbook, training USAID missions in behavioral approaches to policy
+ creation.
+
+# Opportunities for science
+
+## 
+
+# Opportunities for the public
+
+# Opportunities for the government
+
+## Challenges for the government and public: Using Behavioral Approaches to Avoid Structural Change
+
+## Challenges for science: Political capture.
 
 
 ## Scientific Integrity and Government for Humans
@@ -157,7 +247,7 @@ If we show X works in the federal government, we may see X implemented in Urbana
 
 Rather than make extra teaching and outreach materials, we can work in
 public as much as possible (following 18F which also cares about a human centered
-government)^[https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and 
+government)^[https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
     <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
 
 
@@ -173,6 +263,13 @@ free when they copy the code for their own use.
 Openness also counteracts the threat of political capture.
 
 
+# Conclusion, Questions
 
+\notes{
 
+## The Ethics of Behavioral Interventions
 
+ - Always allow an opt-out.
+ - Do no harm.
+ - 
+   }
