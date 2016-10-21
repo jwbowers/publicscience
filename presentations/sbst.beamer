@@ -280,10 +280,10 @@ $endfor$
 
 $body$
 
-\begin{frame}[c]
-  \centering
-  \includegraphics[width=.8\textwidth]{SBSTWebsite.png}
-\end{frame}
+%% \begin{frame}[c]
+%%   \centering
+%%   \includegraphics[width=.8\textwidth]{SBSTWebsite.png}
+%% \end{frame}
 
 $if(natbib)$
 $if(biblio-files)$

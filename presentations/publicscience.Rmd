@@ -252,7 +252,17 @@ learning from observation, etc \ldots).
 \bigskip
 \pause
 
-**A thought**: clear, credible and easy to interpret research *plus* extreme openness can help the broad movement continue to serve the public *and* contribute to the academic consensus itself.
+**A thought**: clear, credible and easy to interpret research *plus* extreme openness can help the broad movement continue to serve the public *and* contribute to the knowledge.
+
+\pause
+\medskip
+
+Our methods matter for public policy.
+
+\pause
+\medskip
+
+For students: pay close attention in your methodology classes!
 
 ## How to do it?
 
@@ -264,14 +274,53 @@ The meaning of "Excellent science" changes over time, place, and discipline.
 ### Current approaches to enhancing credibility and interpretability
 
 \begin{itemize}
-\item Publicize all results --- confirming, null or counter to our or any agencies policy priors.
+\item Publicize all results: confirming, null or counter to our or any agencies policy priors.
 \item Publish in peer reviewed journals (expose all work to criticism by the larger academic community).
 \item Register all designs that we run to avoid the file drawer problem.
 \item Pre-analysis plans to avoid concerns about fishing and p-hacking.
 \item Secondary re-analysis (from scratch) of results.
 \item Reproducible code to enable public scrutiny and learning (by others, by our future selves)
-\item Follow (and improve) the Standard Operating Procedure (SOP)
+\item Follow a public Standard Operating Procedure (SOP)
 \end{itemize}
+
+## What about openness?
+
+Imagine that all designs, analyses, results, and code (not data) are public ---
+and that anybody can search, copy, change, comment on, or contribute to these
+documents.
+
+ - If our designs and methods and results are in the public then we can serve
+   the public more than once for a given study: maybe Urbana, Illinois would
+   implement a new policy that we tested in the federal government.
+ - We can also enable and empower other teams elsewhere merely by making our
+   materials public.^[For a model see our collaborators 18F
+   https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
+   <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
+ - If we model openness, then we have the opportunity to learn from the new
+   groups and from people not directly involved in our team or the broader
+   multidisciplinary effort.
+-  Sharing all of our designs, results, materials as a norm and doing research
+  using impersonal methods (like randomized trials) makes it difficult for
+  political agents to lie about results or process. So, openness enhances our
+  reputation and thus our impact on public policy.
+
+## Conclusion, Questions
+
+ - Behavioral Insights teams are increasing around the world and promise to
+   improve public policy (and, I hope, the relationship between people and
+   government).
+
+ - They depend crucially on academics practicing their work in accord with the
+   highest scientific values of humility, collaboration, and honesty: without
+   high scientific integrity, there is no reason to follow our advice or
+   believe our results. You could merely hire an external contractor to tell
+   you want you want to hear.
+
+ - Scientific integrity plus openness enhances the public policy impact of our
+   work and, I hope, will protect future teams from the effects of political
+   capture.
+
+\appendix
 
 ## What about political capture (real or imagined)?
 
@@ -299,49 +348,6 @@ Structural change is much more difficult than changes in presentation of choices
 \note{
 mi proposito es desarrollar algunos principios o alguna guia para gente de las ciencias sociales quienes van a trabajar en behavioral insights teams o quienes van a ayudar en formar tales grupos en el futuro.
 }
-## Benefits of Openness
-
- - If our designs and methods and results are in the public then we can serve
-   the public more than once for a given study: maybe Urbana, Illinois would
-   implement a new policy that we tested in the federal government.
-
- - We can also enable and empower other teams elsewhere merely by making our
-   materials public.^[For a model see our collaborators 18F
-   https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
-   <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
-
- - If we model openness, then we have the opportunity to learn from the new
-   groups and from people not directly involved in our team or the broader
-   multidisciplinary effort. For example, people around the world fix bugs in
-   18F's code for free when they copy the code for their own use.
-
- - Openness also counteracts the threat of political capture. Sharing all of
-   our designs, results, materials as a norm and doing research using
-   impersonal methods (like randomized trials) makes it difficult for political
-   agents to lie about results or process.
-
-\note{
-
-}
-
-
-# Conclusion, Questions
-
-
- - Behavioral Insights teams are increasing around the world and promise to
-   improve public policy (and, I hope, the relationship between people and
-   government).
-
- - They depend crucially on academics practicing their work in accord with the
-   highest scientific values of humility, collaboration, and honesty: without
-   high scientific integrity, there is no reason to follow our advice or
-   believe our results. You could merely hire an external contractor to tell
-   you want you want to hear.
-
- - Scientific integrity plus openness enhances the public policy impact of our
-   work and, I hope, will protect future teams from the effects of political
-   capture.
-
 
 
 ## For the public
