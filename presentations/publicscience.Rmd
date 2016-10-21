@@ -79,6 +79,7 @@ The White House Social and Behavioral Sciences Team
 Obama en Septiembre 15, 2015. Y ya hemos producido mas o menos 30 policy
 interventions con prueba con experimento aleatorio del campo.}
 
+
 ## SBST Vision and Mission
 
 ### SBST Vision
@@ -93,33 +94,19 @@ The Social and Behavioral Sciences Team:
  \item Tests and learns what works using rigorous methods
  \end{itemize}
 
-\note{ Quiero notar que somos parte de un movimiento en el mundo entero que esta empujando al estado a ser mas y mas en servicio del pueblo, de la persona. Comento dos ejemplos: (1) si queremos ayudar a gente que quieren ahorrar para la jubilacion, tenemos que ser consciente de que el ser human descuenta el futuro (a veces, mucho), asi que }
+\footnotesize{The SBST is formally a subcommittee within the National Science and Technology Council (NSTC). The people who do the work for the team work within the Office of Evaluation Sciences (OES) in the General Services Administration (GSA). Mission and vision and projects refer to the team not the policies of the NSTC.}
 
-## Behavioral Insights Movement
-
-Behavioral Insights teams are groups of policy advisors who translate (and extend) knowledge from academic disciplinary consensus into public policy.
-
-## Behavioral Insights Movement
-
-\centering\includegraphics[width=.8\textwidth]{biteam.png}
-
-\note{ I also want to highlight the fact that this is a movement: there are teams being
-established around the world, at diverse levels of government, all the time.
-The general idea behind this movement is two fold: (1) the move to make
-governments human-centered, to make public policy that does not assume rational
-actors all the time and (2) the growth and maturing of policy relevant theories
-and findings from academia, typified by the work of Kahnemann and Tverky in
-psychology, but including work in economics and other disciplines.
-
-}
-
-## Behavioral Insights Movement
-\centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
-
-## Behavioral Insights Movement
-\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
-
-$+$ Netherlands, Qatar, Denmark, Argentina \ldots Washington DC, Manchester, Sydney, New South Wales, Essex \ldots
+\note{ Quiero notar que somos parte de un movimiento en el mundo entero que
+esta empujando los services del estado a ser mas y mas en servicio del pueblo,
+de la persona. Comento un ejemplo: si queremos ayudar a gente que quieren
+ahorrar para la jubilacion, tenemos que ser consciente de que el ser human
+descuenta el futuro (a veces, mucho) y presta atención al ahora mucho mas que
+el futuro. Pero cuando llega al futuro este triste de no haber prestado
+atencion al futuro. Asi que si podemos ofrecer la posibilidad de prestar un
+momento de atencion al futuro podemos aumentar ahorros (el contraste es con
+politicas publicas que tratan de incentivar ahorros pero no toma encuenta la
+problem atencion y future discounting). Referimos a este tipo de en foco a la
+persona cuando hablamos del a government built for people.  }
 
 # Examples of our Work
 
@@ -140,7 +127,7 @@ message reminders to complete required pre-matricula on tasks led 8.6 percent
 more students to successfully enroll in college.
 \column{.4\textwidth}
 
-\centering\includegraphics[width=.4\textwidth]{SummerMelt.pdf}
+\centering\includegraphics[width=.9\textwidth]{SummerMelt.pdf}
 \columnsend
 
 ## A Null Effect of Social Norms
@@ -164,16 +151,57 @@ Some other projects, including some in progress:
 
  Also some projects not involving testing: on <http://vote.gov>, on
  the handbook for water safety for the EPA in Flint, on the Bureau of Prison's
- Re-Entry Handbook, training USAID missions in behavioral approaches to policy
+ Re-Entry Handbook, on training USAID missions in behavioral approaches to policy
  creation.
 
-# Opportunities for science
+# The behavioral insights movement around the world.
 
-## 
+## Behavioral Insights Movement
 
-# Opportunities for the public
+More broadly: Behavioral Insights teams translate (and extend) knowledge from
+the academic disciplinary consensus in the social and behavioral sciences into
+public policy.
 
-# Opportunities for the government
+A government built for people depends on what we know about people.
+
+\note{El grupo de nosotros fue el segundo grupo asi en el mundo, el primero fue
+fundado en 2010 en el Reino Unido. Y asi que hablo }
+
+## Behavioral Insights Movement
+
+\centering\includegraphics[width=.8\textwidth]{biteam.png}
+
+\note{ Quiero destacar que hay un movimiento aqui: there are teams being
+established around the world, at diverse levels of government, all the time.
+The general idea behind this movement is two fold: (1) the move to make
+governments human-centered, to make public policy that does not assume rational
+actors all the time and (2) the growth and maturing of policy relevant theories
+and findings from academia, typified by the work of Kahnemann and Tverky in
+psychology, but including work in economics and other disciplines.
+
+}
+
+## Behavioral Insights Movement
+\centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
+
+## Behavioral Insights Movement
+\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
+
+$+$ Countries: Netherlands, Qatar, Denmark, Argentina \ldots
+
+$+$ Cities/Regions: \ldots Washington DC, Manchester, Sydney, New South Wales, Essex \ldots
+
+$+$ Companies: Behavioral Insights Team, Ideas42, Deloitte Center for Government Insights, \ldots
+
+# Benefits and Opportunities
+
+## For the public
+
+## For the government
+
+## For Science
+
+# Challenges
 
 ## Challenges for the government and public: Using Behavioral Approaches to Avoid Structural Change
 
@@ -188,8 +216,6 @@ Our vision of a human centered government means that we serve and empower the pu
 
 We serve and empower the public and agency partners by doing and teaching excellent and high integrity science (empirical/experimental/observational science, humility in the face of uncertainty, impersonal techniques for learning from observation, etc\ldots).
 
-
-# Plan, Execute, and Communicate Good Science
 
 ## How to do excellent science?
 
@@ -214,22 +240,6 @@ We serve and empower the public and agency partners by doing and teaching excell
 \pause
 
 **We are already pursuing more excellent scientific practices than most social and behavioral scientists.**
-
-# Pursue a Government built for Humans
-
-## Tactics for creating a human centered government
-
-
- 1. Apply the insights and tools of behavioral and social science following
-    excellent scientific principles.
-
- 2. Choose projects which have direct payoff with respect to the health and
-    benefits of individual members of the public.
-
- 3. Enhance the reputation of the team: (We should keep hearing people say,
-    "Oh, the SBST! I love y'all!" or "I've hear such great things about your
-    team!")
-
 
 ## The Threat of Political Capture (Real or Imagined)
 
@@ -271,5 +281,5 @@ Openness also counteracts the threat of political capture.
 
  - Always allow an opt-out.
  - Do no harm.
- - 
+ -
    }
