@@ -20,9 +20,8 @@
 	BoldFont          = Lato-Bold,
 	ItalicFont        = Lato-Italic,
 	BoldItalicFont    = Lato-BoldItalic,
-	SmallCapsFeatures = {Letters = SmallCaps},
+	SmallCapsFeatures = {Letters = SmallCaps}]{Lato-Regular}
 %	Numbers           = OldStyle ]{Lato-Regular}
-	Numbers           = Monospaced]{Lato-Regular}
 \setmonofont[Path         = ./fonts/Source_Code_Pro/,
 	Extension         = .ttf,
 	BoldFont          = SourceCodePro-Bold,
@@ -219,8 +218,8 @@ $endif$
 \graphicspath{{.}{_template/}{graphics/}} % make it easier to find the logos
 \addtobeamertemplate{frametitle}{}{%
 \begin{tikzpicture}[remember picture,overlay]
-\node[anchor=south east,yshift=6pt,xshift=-3pt] at (current page.south east) {\includegraphics[height=0.5cm]{SBSTLightBulb}};
-\node[anchor=south west,yshift=6pt,xshift=-3pt] at (current page.south west) {\includegraphics[height=0.5cm]{imark_bold50}};
+%\node[anchor=south east,yshift=6pt,xshift=-3pt] at (current page.south east) {\includegraphics[height=0.5cm]{SBSTLightBulb}};
+%\node[anchor=south west,yshift=6pt,xshift=-3pt] at (current page.south west) {\includegraphics[height=0.5cm]{imark_bold50}};
 \end{tikzpicture}}
 
 \addtobeamertemplate{title page}{}{%

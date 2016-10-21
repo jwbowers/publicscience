@@ -112,12 +112,12 @@ persona cuando hablamos del a government built for people.
 
 # Examples of our Work
 
-##  A Positive Effect of Cognitive Availability
+##  Overcoming cognitive burdens of poverty: College Enrollment Tasks
 
 \columnsbegin
 \column{.6\textwidth}
 Roughly 20--30 percent of college-accepted high school graduates
-in urban districts fail to matriculate in college in the fall, because they do
+in urban districts fail to matriculate in college in the fall because they do
 not complete required pre-matriculation tasks such as  filling out
 course-enrollment forms, taking placement tests, or completing the FAFSA
 form.
@@ -125,16 +125,17 @@ form.
 \medskip
 
 Sending low-income, college-accepted high school graduates personalized text
-message reminders to complete required pre-matricula on tasks led 8.6 percent
+message reminders to complete required tasks led 8.6 percent
 more students to successfully enroll in college.
 \column{.4\textwidth}
 
-\centering\includegraphics[width=.9\textwidth]{SummerMelt.pdf}
+\centering\includegraphics[width=.99\textwidth]{SummerMelt.pdf}
 \columnsend
 
 \note{ Hay cresciente evidencia que la pobreza aumenta carga cognitiva: es decir que uno vive en las condiciones fisicas, economicas, sociales, etc.. de la pobreza, hay mas que pensar, y, ademas, decontar el futuro es aun mas fuerte. Notantando que hay muchos jovens ya aceptados a la U que no van por razones de no hacer tramites, hicimos algunas breve intervenciones con un NGO via text messages para solamente arribir las tramites en la escena cognitiva/escena de atencion de los jovenes. Este intervencion funciono bien, y aunque los numeros de efectos son bajos aqui (y en otros de los intervenciones de nosotros) las consecuencias en vida humana son grande: efectos de 1 porcentaje pueden significar millions de personas en la U (no recuerdo el sample size aqui, asi que no voy a atrevar a decir cuandos miles mas estudiantes fueran a la U debido a este proprio estudio). Asi que este project ilustra un exito de intervencion de costo muy bajo y efectos grandes.}
 
-## A Null Effect of Social Norms
+## Using social norms to reduce opioid prescriptions
+
 \centering\includegraphics[height=.9\textheight]{MedicarePartDOpioidLetter.pdf}
 
 \note{
@@ -142,7 +143,8 @@ Hay bastante evidencia en apoyo de la idea de que las personas toman en cuenta l
 }
 
 
-## A Null Effect of Social Norms
+## Using social norms to reduce opioid prescriptions
+
 \centering\includegraphics[width=.8\textwidth]{healthAffairs1.png}
 
 \note{Al final no encontremos efectos. Hablamos de esto por un momento: aqui como pueden ver publiquemos los null results en una revista peer-reviewed. Y publiquemos los resultados en nuestra annual report. No escondimos falta de eficacia del experimento aunque es seguro que queremos decir, "Somos el nuevo equipo que les van a valorizar mucho!" Para mi fue importante este moment (que nadie en el equipo oponia) porque fue un momento en que (1) estabamos contribuyendo a la ciencia misma (ahora hay mas preguntas, por que no resulto aqui cuando resulta tan bien con huespedes en hotels y sus toallas o con voters en los EE.UU. y voter turnout? and (2) estabamos modelando como podemos crecer conocimiento sobre que funciona en gobierno.}
@@ -177,7 +179,7 @@ Some other projects, including some in progress:
 
 ## Behavioral Insights Movement
 
-More broadly: Behavioral Insights teams translate (and extend) knowledge from
+Behavioral Insights teams translate (and extend) knowledge from
 the academic disciplinary consensus in the social and behavioral sciences into
 public policy.
 
@@ -216,7 +218,7 @@ $+$ Cities/Regions: \ldots Washington DC, Manchester, Sydney, New South Wales, E
 
 $+$ Companies: Behavioral Insights Team, Ideas42, Deloitte Center for Government Insights, \ldots
 
-# Scientific integrity and openness are crucial for the success of behavioral insights teams.
+# Foundations for success of behavioral insights teams: Scientific Integrity and Openness
 
 ## Behavioral Insights Teams Succeed \ldots
 
@@ -252,7 +254,7 @@ learning from observation, etc \ldots).
 \bigskip
 \pause
 
-**A thought**: clear, credible and easy to interpret research *plus* extreme openness can help the broad movement continue to serve the public *and* contribute to the knowledge.
+**A thought**: clear, credible and easy to interpret research *plus* extreme openness can help the broad movement continue to serve the public *and* contribute to knowledge.
 
 \pause
 \medskip
@@ -276,7 +278,7 @@ The meaning of "Excellent science" changes over time, place, and discipline.
 \begin{itemize}
 \item Publicize all results: confirming, null or counter to our or any agencies policy priors.
 \item Publish in peer reviewed journals (expose all work to criticism by the larger academic community).
-\item Register all designs that we run to avoid the file drawer problem.
+\item Register all research designs to avoid the file drawer problem.
 \item Pre-analysis plans to avoid concerns about fishing and p-hacking.
 \item Secondary re-analysis (from scratch) of results.
 \item Reproducible code to enable public scrutiny and learning (by others, by our future selves)
@@ -287,48 +289,71 @@ The meaning of "Excellent science" changes over time, place, and discipline.
 
 Imagine that all designs, analyses, results, and code (not data) are public ---
 and that anybody can search, copy, change, comment on, or contribute to these
-documents.
+documents. (Example of "working in the open" here from team creating <http://vote.gov>):
 
- - If our designs and methods and results are in the public then we can serve
-   the public more than once for a given study: maybe Urbana, Illinois would
-   implement a new policy that we tested in the federal government.
- - We can also enable and empower other teams elsewhere merely by making our
-   materials public.^[For a model see our collaborators 18F
+\centering\includegraphics[width=.8\textwidth]{votegovgithub1.png}
+
+## What about openness?
+
+Imagine that all designs, analyses, results, and code (not data) are public ---
+and that anybody can search, copy, change, comment on, or contribute to these
+documents. (Example of "working in the open" here from team creating <http://vote.gov>):
+
+\centering\includegraphics[width=.8\textwidth]{votegovgithub2.png}
+
+
+## What about openness?
+
+Imagine that all designs, analyses, results, and code (not data) are public ---
+and that anybody can search, copy, change, comment on, or contribute to these
+documents. (Example of "working in the open" here from our team:)
+
+\centering\includegraphics[width=.8\textwidth]{github1.png}
+
+## What about openness?
+
+Imagine that all designs, analyses, results, and code (not data) are public ---
+and that anybody can search, copy, change, comment on, or contribute to these
+documents. (Example of "working in the open" here from our team:)
+
+\centering\includegraphics[width=.8\textwidth]{github2.png}
+
+## What about openness?
+
+ - Public designs and methods and results serve the public:  maybe other
+   towns, states, or countries would implement a new policy that we tested in
+   the federal government.
+ - Openness teaches easily.^[For a model see our collaborators 18F
    https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
    <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
  - If we model openness, then we have the opportunity to learn from the new
    groups and from people not directly involved in our team or the broader
-   multidisciplinary effort.
+   multidisciplinary effort.(ex. "pull requests" on github)
 -  Sharing all of our designs, results, materials as a norm and doing research
   using impersonal methods (like randomized trials) makes it difficult for
-  political agents to lie about results or process. So, openness enhances our
+  political agents to lie about or hide our results or process. So, openness enhances our
   reputation and thus our impact on public policy.
 
-## Conclusion, Questions
+## Conclusion, Questions, Conversation?
+
+### Summary
 
  - Behavioral Insights teams are increasing around the world and promise to
    improve public policy (and, I hope, the relationship between people and
    government).
 
- - They depend crucially on academics practicing their work in accord with the
-   highest scientific values of humility, collaboration, and honesty: without
-   high scientific integrity, there is no reason to follow our advice or
-   believe our results. You could merely hire an external contractor to tell
-   you want you want to hear.
+ - The success of these teams depends on academics practicing their
+   work in accord with the highest scientific values of humility,
+   collaboration, and honesty.
 
  - Scientific integrity plus openness enhances the public policy impact of our
-   work and, I hope, will protect future teams from the effects of political
-   capture.
+   work.
+
+### Questions? Conversation?
+
+Happy to be in touch! (jake@jakebowers.org, <http://jakebowers.org>)
 
 \appendix
-
-## What about political capture (real or imagined)?
-
-**Imagined Capture** deprives BI teams of invitations to collaborate with the right kinds of people in the agencies and academia. If no one wants to work with the teams, the teams cannot help the public.
-
-\medskip
-
-**Real Capture** deprives BI teams of invitations to collaborate with the right kinds of people in the agencies and academia **and** deprives the scientific community, government, and the public of the ability to learn and teach about what works and what doesn't. Science is about credible communication. And real capture hurts both credibility and communication.
 
 ## What about structural change?
 
