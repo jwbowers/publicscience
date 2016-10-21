@@ -89,9 +89,9 @@ We believe government works best when it's built for people.
 The Social and Behavioral Sciences Team:
 
 \begin{itemize}
-\item Brings diverse scientific expertise to Federal agencies
- \item Applies insights about human behavior to improve Government’s interactions with people
- \item Tests and learns what works using rigorous methods
+\item Brings diverse scientific expertise to Federal agencies (Scientists active in research.)
+ \item Applies insights about human behavior to improve Government’s interactions with people (Creative translation in deep collaboration with agency experts.)
+ \item Tests and learns what works using rigorous methods (testing what works, so far randomized trials).
  \end{itemize}
 
 \footnotesize{The SBST is formally a subcommittee within the National Science and Technology Council (NSTC). The people who do the work for the team work within the Office of Evaluation Sciences (OES) in the General Services Administration (GSA). Mission and vision and projects refer to the team not the policies of the NSTC.}
@@ -106,7 +106,9 @@ atencion al futuro. Asi que si podemos ofrecer la posibilidad de prestar un
 momento de atencion al futuro podemos aumentar ahorros (el contraste es con
 politicas publicas que tratan de incentivar ahorros pero no toma encuenta la
 problem atencion y future discounting). Referimos a este tipo de en foco a la
-persona cuando hablamos del a government built for people.  }
+persona cuando hablamos del a government built for people.
+
+}
 
 # Examples of our Work
 
@@ -130,21 +132,34 @@ more students to successfully enroll in college.
 \centering\includegraphics[width=.9\textwidth]{SummerMelt.pdf}
 \columnsend
 
+\note{ Hay cresciente evidencia que la pobreza aumenta carga cognitiva: es decir que uno vive en las condiciones fisicas, economicas, sociales, etc.. de la pobreza, hay mas que pensar, y, ademas, decontar el futuro es aun mas fuerte. Notantando que hay muchos jovens ya aceptados a la U que no van por razones de no hacer tramites, hicimos algunas breve intervenciones con un NGO via text messages para solamente arribir las tramites en la escena cognitiva/escena de atencion de los jovenes. Este intervencion funciono bien, y aunque los numeros de efectos son bajos aqui (y en otros de los intervenciones de nosotros) las consecuencias en vida humana son grande: efectos de 1 porcentaje pueden significar millions de personas en la U (no recuerdo el sample size aqui, asi que no voy a atrevar a decir cuandos miles mas estudiantes fueran a la U debido a este proprio estudio). Asi que este project ilustra un exito de intervencion de costo muy bajo y efectos grandes.}
+
+## A Null Effect of Social Norms
+\centering\includegraphics[height=.9\textheight]{MedicarePartDOpioidLetter.pdf}
+
+\note{
+Hay bastante evidencia en apoyo de la idea de que las personas toman en cuenta lo que estan haciendo otros cuando hacen decisions. Bueno, como padre lo noto cuando tengo que decir, "Se que los vecinos esta dando cucharadas de azucar, ipads, y peliculas a sus niños, pero no somos ellos!".  Asi que, basado en evidencia mas fuerte que mis conversaciones con mis niños, armemos una campagna para desminuir la cantidad de opioides dado por doctores. Mandemos una carta a los doctors que era outliers dentro de Medicare (programa de salud universal para mayores de edad) decidiendo como su comportamiento comparaba con otros doctors (y otros doctores eran assignados aleatoriamente a no recibir tal comunicacion). A fin, no encontremos effectos.
+}
+
+
 ## A Null Effect of Social Norms
 \centering\includegraphics[width=.8\textwidth]{healthAffairs1.png}
+
+\note{Al final no encontremos efectos. Hablamos de esto por un momento: aqui como pueden ver publiquemos los null results en una revista peer-reviewed. Y publiquemos los resultados en nuestra annual report. No escondimos falta de eficacia del experimento aunque es seguro que queremos decir, "Somos el nuevo equipo que les van a valorizar mucho!" Para mi fue importante este moment (que nadie en el equipo oponia) porque fue un momento en que (1) estabamos contribuyendo a la ciencia misma (ahora hay mas preguntas, por que no resulto aqui cuando resulta tan bien con huespedes en hotels y sus toallas o con voters en los EE.UU. y voter turnout? and (2) estabamos modelando como podemos crecer conocimiento sobre que funciona en gobierno.}
 
 ## Other Projects
 
 Some other projects, including some in progress:
 
  - Only 44% of military enrolled in retirement savings. In pilot projects
-   involving active choice saw increase by 8%.
+   involving active choice (change in a form, change in a process/timing of
+   form filling) saw increase by 8%.
 
  - Increased applications for and take-up of microloans for farmers via
-   redesigned communication.
+   redesigned communication (letters).
 
  - Helping people communicate with loan counselors to avoid defaults on student
-   loans by providing a committment device (pre-scheduled call times).
+   loans by providing a commitment device (pre-scheduled call times).
 
  - Changing materials and training associated with unemployment benefits (state
    of Oregon).
@@ -154,6 +169,10 @@ Some other projects, including some in progress:
  Re-Entry Handbook, on training USAID missions in behavioral approaches to policy
  creation.
 
+\note{Aqui tengo algunos otros proyectos. Hay mas en el sitio de red. Y estare feliz de hablar mas de ejemplos si quieren despues. Ahora quiero recordar que este no es solo un grupo en un lugar en el mundo, pero hay mucha gente mobilizando para connectar la academia y el gobierno en muchos lados -- para motivar la discusion mas abstacto sobre como debemos comportar como cientistas en el gobierno, que valores y actitudes debemos mostrar y practicar.
+}
+
+
 # The behavioral insights movement around the world.
 
 ## Behavioral Insights Movement
@@ -162,10 +181,12 @@ More broadly: Behavioral Insights teams translate (and extend) knowledge from
 the academic disciplinary consensus in the social and behavioral sciences into
 public policy.
 
+\bigskip
+
 A government built for people depends on what we know about people.
 
 \note{El grupo de nosotros fue el segundo grupo asi en el mundo, el primero fue
-fundado en 2010 en el Reino Unido. Y asi que hablo }
+fundado en 2010 en el Reino Unido. Y muestro ahora mas de los esfuerzos que estan en marcha. }
 
 ## Behavioral Insights Movement
 
@@ -185,7 +206,9 @@ psychology, but including work in economics and other disciplines.
 \centering\includegraphics[width=.8\textwidth]{ausbiteam.png}
 
 ## Behavioral Insights Movement
-\centering\includegraphics[width=.8\textwidth]{EUBIT32.png}
+\begin{center}
+\includegraphics[width=.6\textwidth]{EUBIT32.png}
+\end{center}
 
 $+$ Countries: Netherlands, Qatar, Denmark, Argentina \ldots
 
@@ -193,93 +216,163 @@ $+$ Cities/Regions: \ldots Washington DC, Manchester, Sydney, New South Wales, E
 
 $+$ Companies: Behavioral Insights Team, Ideas42, Deloitte Center for Government Insights, \ldots
 
-# Benefits and Opportunities
+# Scientific integrity and openness are crucial for the success of behavioral insights teams.
 
-## For the public
+## Behavioral Insights Teams Succeed \ldots
 
-## For the government
+\ldots when the public experiences improved outcomes: more retirement savings for
+young soldiers, fewer poor children without free lunches, etc.
 
-## For Science
+\medskip
 
-# Challenges
+The public experiences improved outcomes when \ldots the government implements
+human centered policies (among other governmental actions)
 
-## Challenges for the government and public: Using Behavioral Approaches to Avoid Structural Change
+\medskip
 
-## Challenges for science: Political capture.
+The government implements human centered policies when \ldots it learns about
+them, and when they are shown to work in a credible fashion. (i.e. when the
+government believes the behavioral insights team).
 
+\medskip
 
-## Scientific Integrity and Government for Humans
+The government believes the team when \ldots the team does believable work (i.e. work with high scientific integrity, work that is not predetermined by ideology or politics).
+
+## Behavioral insights teams must maintaining high standards of scientific integrity
 
 Our vision of a human centered government means that we serve and empower the public and our agency partners.
 
 \bigskip
 
-We serve and empower the public and agency partners by doing and teaching excellent and high integrity science (empirical/experimental/observational science, humility in the face of uncertainty, impersonal techniques for learning from observation, etc\ldots).
+We serve and empower the public and agency partners by doing and teaching
+excellent and high integrity science (empirical/experimental/observational
+science, humility in the face of uncertainty, impersonal techniques for
+learning from observation, etc \ldots).
 
-
-## How to do excellent science?
-
-### Challenge
-"Excellent science" changes over time, place, and discipline.
-
-### Approaches
-
-(* means we are already doing something like this)
-
-\begin{itemize}
-\item Publicize all results --- confirming, null* or counter to our or any agencies policy priors.
-\item Publish in Peer Reviewed Places. *
-\item Register all designs that we run to avoid the file drawer problem. *
-\item Pre-analysis plans to avoid concerns about fishing and p-hacking. *
-\item Re-analysis (from scratch) of results. *
-\item Reproducible code to enable public scrutiny and learning (by others, by us) *
-\item Follow (and improve) the Standard Operating Procedure (SOP) *
-\end{itemize}
-
-\medskip
+\bigskip
 \pause
 
-**We are already pursuing more excellent scientific practices than most social and behavioral scientists.**
+**A thought**: clear, credible and easy to interpret research *plus* extreme openness can help the broad movement continue to serve the public *and* contribute to the academic consensus itself.
 
-## The Threat of Political Capture (Real or Imagined)
+## How to do it?
 
-**Imagined Capture** deprives us of invitations to collaborate with the right kinds of people in the agencies and academia.
+### Challenge
+The meaning of "Excellent science" changes over time, place, and discipline.
 
-\medskip
+\pause
 
-**Real Capture** deprives us of invitations to collaborate with the right kinds of people in the agencies and academia **and** deprives us of the ability to learn and teach about what works and what doesn't.
+### Current approaches to enhancing credibility and interpretability
 
-## A new tactic: Openness.
+\begin{itemize}
+\item Publicize all results --- confirming, null or counter to our or any agencies policy priors.
+\item Publish in peer reviewed journals (expose all work to criticism by the larger academic community).
+\item Register all designs that we run to avoid the file drawer problem.
+\item Pre-analysis plans to avoid concerns about fishing and p-hacking.
+\item Secondary re-analysis (from scratch) of results.
+\item Reproducible code to enable public scrutiny and learning (by others, by our future selves)
+\item Follow (and improve) the Standard Operating Procedure (SOP)
+\end{itemize}
 
-If we show X works in the federal government, we may see X implemented in Urbana, Illinois. (so we **serve the public twice** for one study if the public can know about the study and can implement and analyze the study.)
+## What about political capture (real or imagined)?
 
-\medskip
-
-Rather than make extra teaching and outreach materials, we can work in
-public as much as possible (following 18F which also cares about a human centered
-government)^[https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
-    <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
-
-
-\medskip
-
-If we model openness, then we have the opportunity to learn from the new groups
-and from people not directly involved in our team or the broader
-multidisciplinary effort. For example, people around the world fix bugs in 18F's code for
-free when they copy the code for their own use.
+**Imagined Capture** deprives BI teams of invitations to collaborate with the right kinds of people in the agencies and academia. If no one wants to work with the teams, the teams cannot help the public.
 
 \medskip
 
-Openness also counteracts the threat of political capture.
+**Real Capture** deprives BI teams of invitations to collaborate with the right kinds of people in the agencies and academia **and** deprives the scientific community, government, and the public of the ability to learn and teach about what works and what doesn't. Science is about credible communication. And real capture hurts both credibility and communication.
+
+## What about structural change?
+
+Social and behavioral science may suggest non-behavioral solutions.
+
+\bigskip
+
+For example, our project with automatic form-completion for low income students
+and the Free Application for Federal Student Aid. (So, policy is to create data
+cooperation between three parts of the government which are prevented from
+sharing data by a privacy law: Public Housing, Taxes and Education.)
+
+\bigskip
+
+Structural change is much more difficult than changes in presentation of choices or information or even incentives.
+
+\note{
+mi proposito es desarrollar algunos principios o alguna guia para gente de las ciencias sociales quienes van a trabajar en behavioral insights teams o quienes van a ayudar en formar tales grupos en el futuro.
+}
+## Benefits of Openness
+
+ - If our designs and methods and results are in the public then we can serve
+   the public more than once for a given study: maybe Urbana, Illinois would
+   implement a new policy that we tested in the federal government.
+
+ - We can also enable and empower other teams elsewhere merely by making our
+   materials public.^[For a model see our collaborators 18F
+   https://pages.18f.gov/partnership-playbook/1-build-in-the-open/ and
+   <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>]
+
+ - If we model openness, then we have the opportunity to learn from the new
+   groups and from people not directly involved in our team or the broader
+   multidisciplinary effort. For example, people around the world fix bugs in
+   18F's code for free when they copy the code for their own use.
+
+ - Openness also counteracts the threat of political capture. Sharing all of
+   our designs, results, materials as a norm and doing research using
+   impersonal methods (like randomized trials) makes it difficult for political
+   agents to lie about results or process.
+
+\note{
+
+}
 
 
 # Conclusion, Questions
 
-\notes{
 
-## The Ethics of Behavioral Interventions
+ - Behavioral Insights teams are increasing around the world and promise to
+   improve public policy (and, I hope, the relationship between people and
+   government).
 
- - Always allow an opt-out.
- - Do no harm.
- -
-   }
+ - They depend crucially on academics practicing their work in accord with the
+   highest scientific values of humility, collaboration, and honesty: without
+   high scientific integrity, there is no reason to follow our advice or
+   believe our results. You could merely hire an external contractor to tell
+   you want you want to hear.
+
+ - Scientific integrity plus openness enhances the public policy impact of our
+   work and, I hope, will protect future teams from the effects of political
+   capture.
+
+
+
+## For the public
+
+ - Better public policy: more retirement savings for young soldiers, fewer poor children without free lunches, \ldots
+
+ - Indirect: better relationship with the government (maybe better politics?)
+
+ - Indirect: maybe enhance ability of citizen involvement in policy creation and evaluation.
+
+ - Indirect: all studies add to general scientific consensus --- the USA can learn from the UK.
+
+\note{ Ahora quiero destactar algunos de los beneficios de tal colaboracion entre academia y el gobierno. El beneficio mas importante in corto plazo para el publico es mejor politica publica --- mejor outcomes para cada persona. Pero tengo algunos conjecturas que, en largo plazo, si la gente vean que estan bien servidos, que a lo mejor sera mas facil tener debate sustantivo sobre ideas y politicas y menos con o contra el gobierno per se. Hay estudios como el estado hace su proprio publico, y en tales estudios fundamento estes conjecturas.
+
+}
+
+## For the Government
+
+ - Better public policy (*sometimes* cost savings).
+ - Indirect: Enhanced relationship with the public (legitimacy, confidence, etc...)
+ - Learning is fun: The people in the government have expertise, curiosity, intelligence.
+ - Testing using randomization helps focus within agency discussions on what works rather than on office politics. (Randomization is anti-authoritarian and impersonal.)
+ - A culture of asking questions and thinking about credible and impersonal research design can speed learning and reaction to change.
+
+\note{
+
+}
+
+## For Science
+
+ - Large scale, high powered tests for existing debates (high powered replication)
+ - New questions from governments and multidisciplinary teams.
+ - New methods (because of new questions).
+

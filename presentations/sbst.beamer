@@ -21,7 +21,8 @@
 	ItalicFont        = Lato-Italic,
 	BoldItalicFont    = Lato-BoldItalic,
 	SmallCapsFeatures = {Letters = SmallCaps},
-	Numbers           = OldStyle ]{Lato-Regular}
+%	Numbers           = OldStyle ]{Lato-Regular}
+	Numbers           = Monospaced]{Lato-Regular}
 \setmonofont[Path         = ./fonts/Source_Code_Pro/,
 	Extension         = .ttf,
 	BoldFont          = SourceCodePro-Bold,
@@ -39,6 +40,12 @@
 %https://stackoverflow.com/questions/15142134/slides-with-columns-in-pandoc
 \newcommand{\columnsbegin}{\begin{columns}}
 \newcommand{\columnsend}{\end{columns}}
+
+% from https://github.com/jgm/pandoc-templates/blob/master/default.latex
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Define SBST Colors
 %% Dark Yellow: 102, 83, 30
@@ -94,9 +101,6 @@
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 \setbeamerfont{quote}{shape=\upshape}
-
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\setcounter{secnumdepth}{0}
 
 $if(natbib)$
 \usepackage{natbib}
@@ -178,7 +182,6 @@ $if(strikeout)$
 \pdfstringdefDisableCommands{\renewcommand{\sout}{}}
 $endif$
 
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
 
 $if(numbersections)$
 $else$
@@ -250,6 +253,16 @@ Empiezo en castellano para sepan que pueden hacer preguntas y podemos
 conversar en castellano ademas que en ingles. Probablemente voy a empezar de
 hablar en Ingles de vez en cuando mas que nada para que lo que dice sea mas
 claro.
+
+Hoy les voy a describir un poco sobre lo que son Behavioral Insights teams
+partiendo de mi propio experiencia, voy a destacar mi equipo es parte de on
+movimiento internacional de cientistas sociales desde academia colaborando con
+actors en el gobierno, entonces voy a destacar algunos de los
+beneficios/oportunidades y peligros/desafios que enfrentamos como cientistas
+en el gobierno y/o que enfrentan tales colaboraciones, y termino con una
+propuesta por como debemos hacer ciencia a dentro del gobierno en manera que
+sea a poco diferente, y mas abierto al mundo, de que estamos comodos
+practicando a dentro los muros de academia. 
 
 }
 \end{frame}
