@@ -12,7 +12,8 @@ inspired by the [EGAP Research Principles](http://egap.org/sites/default/files/p
 
 The general principle underlying these specific commitments is that the long
 term success of efforts to improve public policy will depend on the scientific
-integrity and transparency of the work we do.
+integrity and transparency of the work we do.^[This document is currently
+hosted at <http://github.com/jwbowers/publicscience>.]
 
 DRAFT NOTE: These ideas are currently aspirational. Comments appreciated!
 
